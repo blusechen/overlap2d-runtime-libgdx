@@ -28,7 +28,7 @@ public class SpineActor extends Actor implements IBaseItem {
     private CustomVariables customVariables = new CustomVariables();
     
 	private SpineReflectionHelper spineReflectionHelper;
-	private SpineDataHelper spineData;
+	public SpineDataHelper spineData;
 
 	//private float minX = 0;
     //private float minY = 0;

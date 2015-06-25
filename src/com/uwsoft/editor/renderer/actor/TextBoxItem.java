@@ -67,7 +67,6 @@ public class TextBoxItem extends TextField implements IBaseItem  {
 		return dataVO;
 	}
 	
-	@Override
 	public void renew() {
 		setText(dataVO.defaultText);
 		if(dataVO.width > 0) {
@@ -87,12 +86,10 @@ public class TextBoxItem extends TextField implements IBaseItem  {
 	}
 	
 
-	@Override
 	public boolean isLockedByLayer() {
 		return isLockedByLayer;
 	}
 
-	@Override
 	public void setLockByLayer(boolean isLocked) {
 		isLockedByLayer = isLocked;
 	}

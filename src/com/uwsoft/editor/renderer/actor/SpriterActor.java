@@ -123,7 +123,7 @@ public class SpriterActor extends Actor implements IBaseItem {
         drawer.beforeDraw(player, batch);
 
     }
-    @Override
+
     public void renew() {
         setX(dataVO.x * this.mulX);
         setY(dataVO.y * this.mulY);
